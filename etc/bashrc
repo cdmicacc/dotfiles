@@ -1,0 +1,20 @@
+# System-wide .bashrc file for interactive bash(1) shells.
+if [ -z "$PS1" ]; then
+   return
+fi
+
+PS1='\h:\W \u\$ '
+# Make bash check its window size after a process completes
+shopt -s checkwinsize
+
+[ -r "/etc/bashrc_$TERM_PROGRAM" ] && . "/etc/bashrc_$TERM_PROGRAM"
+
+export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/apache-maven-3.0.3/bin:$PATH
+alias ls='gls --color'
+alias chown=gchown
+
+#export LS_COLORS='di=1:fi=0:ln=31:pi=5:so=5:bd=5:cd=5:or=31:mi=0:ex=35:*.rpm=90'
+
+if [ -x $HOME/.bashrc ]; then
+	. $HOME/.bashrc
+fi

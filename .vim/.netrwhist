@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/cdmicacc/src/ma/MaTools/build'
+let g:netrw_dirhist_2='/Users/cdmicacc/src/ma/MaCmms/installers/osx/installer-new.pmdoc'
+let g:netrw_dirhist_3='/Users/cdmicacc/src/ma/MaCmms/installers/osx'
+let g:netrw_dirhist_4='/Users/cdmicacc/src/gitolite-admin/conf'
+let g:netrw_dirhist_5='/Users/cdmicacc/src/wedding/app/views/guests'
+let g:netrw_dirhist_6='/Users/cdmicacc/src/maservice/test-result'
+let g:netrw_dirhist_7='/Users/cdmicacc/src/nivio/rake-tasks-bundle'
+let g:netrw_dirhist_8='/Users/cdmicacc/src/nivio/archive'

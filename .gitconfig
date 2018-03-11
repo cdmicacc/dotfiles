@@ -1,0 +1,29 @@
+[merge]
+	keepBackup = false
+[mergetool]
+	keepBackup = false
+[difftool]
+	prompt = false
+[color]
+	ui = auto
+[core]
+	autocrlf = input
+	editor = /usr/bin/vim
+	excludesfile = ~/.gitignore
+[branch]
+	autosetuprebase = always
+[push]
+	default = current
+# [color "branch"]
+# 	current = yellow reverse
+# 	local = yellow
+# 	remote = green
+# [color "diff"]
+# 	meta = yellow bold
+# 	frag = magenta bold
+# 	old = red bold
+# 	new = green bold
+# [color "status"]
+# 	added = yellow
+# 	changed = green
+# 	untracked = cyan
